@@ -6,7 +6,7 @@
 			
 				<!-- Links -->
 					<section>
-						<h2>Filler Links</h2>
+						<h2>Services</h2>
 						<?php wp_nav_menu(array(
 								'theme_location'  => 'footer',
 								'container'       => 'ul',
@@ -22,7 +22,7 @@
 			
 				<!-- Links -->
 					<section>
-						<h2>More Filler</h2>
+						<h2>Contact</h2>
 						<?php wp_nav_menu(array(
 								'theme_location'  => 'footer2',
 								'container'       => 'ul',
@@ -36,7 +36,7 @@
 			
 				<!-- Links -->
 					<section>
-						<h2>Even More Filler</h2>
+						<h2>Review Us</h2>
 						<?php wp_nav_menu(array(
 								'theme_location'  => 'footer3',
 								'container'       => 'ul',
@@ -53,13 +53,8 @@
 
 				<!-- About -->
 				<section>
-					<h2><strong>ZeroFour</strong> by HTML5 UP</h2>
-					<p>Hello! This is <strong>ZeroFour</strong>, a free, fully responsive HTML5 site
-					template by <a href="http://n33.co/">n33</a> for <a href="http://html5up.net/">HTML5 UP</a>.
-					It's <a href="http://html5up.net/license/">Creative Commons Attribution</a>
-					licensed so use it for any personal or commercial project (just credit us
-					for the design!)</p>
-					<a href="http://html5up.net/" class="button alt fa fa-arrow-circle-o-right">More @ HTML5Up.net</a>
+					<h2><strong>Exclusive Detail</strong> and Tint</h2>
+					<p>A Charlotte, North Carolina Business.</p>
 				</section>
 			
 				<!-- Contact -->
