@@ -1,67 +1,51 @@
 <!-- Footer Wrapper -->
-
 <div id="footer-wrapper">
 	<footer id="footer" class="container">
 		<div class="row">
-		
-			<?php 
-			wp_nav_menu(array(
-					'theme_location'  => 'footer',
-					'container'       => '',
-					'items_wrap'      => '%3$s',
-					'fallback_cb' => 'ocpsoft_menu_fallback',
-					'walker'          => new OCPsoft_Footer_Menu()
-			));
-			?>
-			
-			<?php 
-			if (is_active_sidebar('sidebar-header'))
-				dynamic_sidebar('sidebar-footer');
-			?>
-			
 			<div class="3u">
 			
 				<!-- Links -->
 					<section>
 						<h2>Filler Links</h2>
-						<ul class="style2">
-							<li><a href="#">Quam turpis feugiat dolor</a></li>
-							<li><a href="#">Amet ornare in hendrerit </a></li>
-							<li><a href="#">Semper mod quisturpis nisi</a></li>
-							<li><a href="#">Consequat etiam phasellus</a></li>
-							<li><a href="#">Amet turpis, feugiat et</a></li>
-							<li><a href="#">Ornare hendrerit lectus</a></li>
-							<li><a href="#">Semper mod quis et dolore</a></li>
-							<li><a href="#">Amet ornare in hendrerit</a></li>
-							<li><a href="#">Consequat lorem phasellus</a></li>
-							<li><a href="#">Amet turpis, feugiat amet</a></li>
-							<li><a href="#">Semper mod quisturpis</a></li>
-						</ul>
+						<?php wp_nav_menu(array(
+								'theme_location'  => 'footer',
+								'container'       => 'ul',
+								'menu_class'      => 'style2',
+								'echo'            => true,
+								'fallback_cb'     => 'wp_page_menu',
+								'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+								'fallback_cb' => 'ocpsoft_menu_fallback'
+						)); ?>
 					</section>
-			
 			</div>
 			<div class="3u">
 			
 				<!-- Links -->
 					<section>
 						<h2>More Filler</h2>
-						<ul class="style2">
-							<li><a href="#">Quam turpis feugiat dolor</a></li>
-							<li><a href="#">Amet ornare in in lectus</a></li>
-							<li><a href="#">Semper mod sed tempus nisi</a></li>
-							<li><a href="#">Consequat etiam phasellus</a></li>
-						</ul>
+						<?php wp_nav_menu(array(
+								'theme_location'  => 'footer2',
+								'container'       => 'ul',
+								'menu_class'      => 'style2',
+								'echo'            => true,
+								'fallback_cb'     => 'wp_page_menu',
+								'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+								'fallback_cb' => 'ocpsoft_menu_fallback'
+						)); ?>
 					</section>
 			
 				<!-- Links -->
 					<section>
 						<h2>Even More Filler</h2>
-						<ul class="style2">
-							<li><a href="#">Quam turpis feugiat dolor</a></li>
-							<li><a href="#">Amet ornare hendrerit lectus</a></li>
-							<li><a href="#">Semper quisturpis nisi</a></li>
-							<li><a href="#">Consequat lorem phasellus</a></li>
-						</ul>
+						<?php wp_nav_menu(array(
+								'theme_location'  => 'footer3',
+								'container'       => 'ul',
+								'menu_class'      => 'style2',
+								'echo'            => true,
+								'fallback_cb'     => 'wp_page_menu',
+								'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+								'fallback_cb' => 'ocpsoft_menu_fallback'
+						)); ?>
 					</section>
 			
 			</div>
@@ -112,6 +96,8 @@
 				</section>
 			</div>
 		</div>
+		
+		<!-- Copyright Wrapper -->
 		<div class="row">
 			<div class="12u">
 				<div id="copyright">
@@ -132,7 +118,7 @@
 				</div>
 			</div>
 		</div>
+		
+		<?php wp_footer(); ?>
 	</footer>
-	
-	<?php wp_footer(); ?>
 </div>
