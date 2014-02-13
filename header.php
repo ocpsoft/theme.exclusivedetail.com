@@ -1,16 +1,10 @@
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-<title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?>
-</title>
+<title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
 <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
-<meta name="author" content="Lincoln Baxter III| OCPSoft, Mike McNeil | Balderdash Design Co." />
+<meta name="author" content="Lincoln Baxter III| http://ocpsoft.org" />
 
 <!-- Service Verifications -->
-<meta name="verify-v1" content="OQ0iBLFyJUjf6cQTqE2cgArwAgTFHdaaYd5+AWePVBY=" />
-<meta name="google-site-verification" content="zNYqxiq_DV1Knn6U762dCVkUaJpw940jyHcn2qEwNIs" />
-<meta name="google-site-verification" content="eB9eznz7aE8faLSEG6LtyZlfKZGw69Z-0NLHFiMdgmM" />
-<meta name="google-site-verification" content="eB9eznz7aE8faLSEG6LtyZlfKZGw69Z-0NLHFiMdgmM" />
-<meta name="msvalidate.01" content="A54BE748E8688A384395C6901A272562" />
 <!-- End Service Verifications -->
 
 <meta name="viewport" content="width=device-width" />
@@ -23,9 +17,9 @@
 <?php wp_get_archives('type=monthly&format=link'); ?>
 
 <!-- HTML5 shim (for IE6-8 support of HTML5 elements) -->
-<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+<!--[if lte IE 9]><link rel="stylesheet" href="<?php bloginfo('stylesheet_directory');?>/css/ie9.css" /><![endif]-->
+<!--[if lte IE 8]><script src="<?php bloginfo('stylesheet_directory');?>/js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+<!--[if lte IE 7]><link rel="stylesheet" href="<?php bloginfo('stylesheet_directory');?>/css/ie7.css" /><![endif]-->
 
 <!-- IE9 CSS Gradient support -->
 <!--[if gte IE 9]>
@@ -36,13 +30,8 @@
 </style>
 <![endif]-->
 
-<?php 
-if ( is_single() || is_page() ) {
-	wp_enqueue_script( 'comment-reply', null, null, null, true );
-}
-wp_head();
+<?php wp_head(); ?>
 
-
-?>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800" rel="stylesheet" type="text/css">
 
 </head>

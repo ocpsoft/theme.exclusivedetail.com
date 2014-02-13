@@ -6,26 +6,24 @@
 
 <?php get_header(); ?>
 
-<body>
-	<div class="container">
-		<div class="ocpsoft-toparea">
-			<?php include 'navbar.php';?>
+<body class="homepage">
 
-			<?php if (have_posts()) : ?>
+<?php include 'navbar.php';?>
 
-			<?php while (have_posts()) : the_post(); ?>
+<?php if (have_posts()) : ?>
 
-			<?php the_content(); ?>
+<?php while (have_posts()) : the_post(); ?>
 
-			<?php endwhile; ?>
+<?php the_content(); ?>
 
-			<?php else : ?>
+<?php endwhile; ?>
 
-			<?php the_error_page(); ?>
+<?php else : ?>
 
-			<?php endif; ?>
+<?php the_error_page(); ?>
 
-		</div>
-		<?php get_footer(); ?>
-	</div>
+<?php endif; ?>
+
+<?php get_footer(); ?>
+
 </body>
