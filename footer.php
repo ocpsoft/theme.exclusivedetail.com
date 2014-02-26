@@ -55,6 +55,34 @@
 				<section>
 					<h2><strong>Exclusive Detail</strong> and Tint</h2>
 					<p>A Charlotte, North Carolina Business.</p>
+					
+					<div>
+						<div class="row">
+							<div class="6u">
+								<dl class="contact">
+									<dt>Address</dt>
+									<dd>
+										4913 Chastain Ave #32<br />
+										Charlotte, NC 28217<br />
+										USA
+									</dd>
+									
+									<dt>Phone</dt>
+									<dd>(704) 525-5225</dd>
+							</div>
+									
+							<div class="6u">
+								<dl class="contact">
+									<dt>Hours</dt>
+									<dd>
+										<strong>Mon-Fri</strong>  7:30 - 6:00<br/>
+										<strong>Sat</strong>  9:00 - 3:00</br>
+										Closed Sundays
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
 				</section>
 			
 				<!-- Contact -->
@@ -65,25 +93,17 @@
 							<div class="6u">
 								<dl class="contact">
 									<dt>Twitter</dt>
-									<dd><a href="http://twitter.com/n33co">@n33co</a></dd>
-									<dt>Dribbble</dt>
-									<dd><a href="http://dribbble.com/n33">dribbble.com/n33</a></dd>
-									<dt>WWW</dt>
-									<dd><a href="http://n33.co">n33.co</a></dd>
-									<dt>Email</dt>
-									<dd><a href="mailto:aj%20-at-%20n33.co">aj -at- n33.co</a></dd>
+									<dd><a href="http://twitter.com/exclusivedetail">@exclusivedetail</a></dd>
+									<dt>Google+</dt>
+									<dd><a href="http://exclusivedetail.com">exclusivedetail.com/n33</a></dd>
 								</dl>
 							</div>
 							<div class="6u">
 								<dl class="contact">
-									<dt>Address</dt>
-									<dd>
-										1234 Fictional Rd<br />
-										Nashville, TN 00000-0000<br />
-										USA
-									</dd>
-									<dt>Phone</dt>
-									<dd>(000) 000-0000</dd>
+									<dt>Facebook</dt>
+									<dd><a href="https://www.facebook.com/ExclusiveDetailAndTint">ExclusiveDetailAndTint</a></dd>
+									<dt>Email</dt>
+									<dd><a href="mailto:info@exclusivedetail.com">info@exclusivedetail.com</a></dd>
 								</dl>
 							</div>
 						</div>

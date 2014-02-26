@@ -1,71 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <?php get_header(); ?>
 
-<body>
-	<div class="container">
-		<div class="ocpsoft-toparea">
-			<?php include 'navbar.php';?>
-		</div>
-		<div class="ocpsoft-middlearea">
-			<div class="ocpsoft-middlearea-shadow-top">
-				<div class="ocpsoft-middlearea-shadow-bottom">
-					<div class="posts">
-						<?php if (!have_posts()) : ?>
-						<?php the_error_page(); ?>
-						<?php else: ?>
+<body class="no-sidebar">
 
-						<?php include 'moreposts.php';?>
+	<?php $NOHERO=true; include 'navbar.php';?>
+	
+	<?php if (have_posts()) : ?>
 
-						<div class="row-fluid">
-							<div class="span8 post-outer">
+	<?php while (have_posts()) : the_post(); ?>
 
-								<?php if (have_posts()) : ?>
-
-								<?php while (have_posts()) : the_post(); ?>
-
-								<div class="post" id="post-<?php the_ID(); ?>">
-
-									<div class="post-title">
-										<div class="post-title-text">
-											<h1>
-												<?php the_title(); ?>
-											</h1>
-										</div>
+		<div class="post" id="post-<?php the_ID(); ?>">
+		
+			<!-- Main Wrapper -->
+			<div id="main-wrapper">
+				<div class="main-wrapper-style2">
+					<div class="inner">
+						<div class="container">
+							<div class="row">
+								<div class="12u skel-cell-important">
+									<div id="content">
+	
+										<!-- Content -->
+									
+											<article>
+												<header class="major">
+													<h2><?php the_title(); ?></h2>
+												</header>
+												
+												<?php the_content('Read the rest of this entry &raquo;'); ?>
+												
+											</article>
+								
 									</div>
-
-									<div class="entry">
-										<?php the_content('Read the rest of this entry &raquo;'); ?>
-									</div>
-
 								</div>
-								<?php comments_template(); ?>
-
-								<?php endwhile; ?>
-
-								<p align="center">
-									<?php next_posts_link('&laquo; Previous Entries') ?>
-									<?php previous_posts_link('Next Entries &raquo;') ?>
-								</p>
-
-								<?php else : ?>
-
-								<?php the_error_page(); ?>
-
-								<?php endif; ?>
-
 							</div>
-							<?php get_sidebar(); ?>
 						</div>
-
-						<?php include 'moreposts.php';?>
-						<?php endif;?>
 					</div>
 				</div>
-			</div>
-		</div>
-		<?php get_footer(); ?>
+			
+				<?php comments_template(); ?>
 	</div>
-</body>
 
+	<?php endwhile; ?>
+
+	<p align="center">
+		<?php next_posts_link('&laquo; Previous Entries') ?>
+		<?php previous_posts_link('Next Entries &raquo;') ?>
+	</p>
+
+	<?php else : ?>
+
+	<?php the_error_page(); ?>
+
+	<?php endif; ?>
+	
+	<?php get_footer(); ?>
+
+</body>
 </html>

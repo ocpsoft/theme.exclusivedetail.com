@@ -37,13 +37,16 @@
 					</div>
 				</header>
 
+				<?php if(!$NOHERO) : ?>
+
 				<!-- Banner -->
 				<div id="banner">
-					<h2><strong>ZeroFour:</strong> A free responsive site template<br />
-					built on HTML5 and CSS3 by <a href="http://html5up.net">HTML5 UP</a></h2>
-					<p>Does this statement make you want to click the shiny blue button?</p>
-					<a href="#" class="button big fa fa-check-circle">Yes it does</a>
+					<h2><strong>Exclusive Detail and Tint - </strong> The Premier Car Cleaning, Auto Detailing, and Window Tinting service in Charlotte, NC</h2>
+					<p>We promise only the highest quality service - Let's take care of your car.</p>
+					<a href="/contact" class="button big fa fa-check-circle">Visit us</a>
 				</div>
+				
+				<?php endif; ?>
 
 			</div>
 		</div>
