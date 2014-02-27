@@ -11,7 +11,7 @@
 					<div class="inner">
 
 						<!-- Logo -->
-						<h1><a href="/" id="logo"><img src="<?php bloginfo('stylesheet_directory');?>/images/logo.png" height="60" style="position: relative; top: -15px;"/></a></h1>
+						<h1><span style="display: none;">The Premier Car Cleaning, Auto Detailing, and Window Tinting service in Charlotte, NC</span><a href="/" id="logo"><img src="<?php bloginfo('stylesheet_directory');?>/images/logo.png" height="60" style="position: relative; top: -15px;"/></a></h1>
 						
 						<!-- Nav -->
 						<nav id="nav">
@@ -41,9 +41,10 @@
 
 				<!-- Banner -->
 				<div id="banner">
-					<h2><strong>Exclusive Detail and Tint - </strong> The Premier Car Cleaning, Auto Detailing, and Window Tinting service in Charlotte, NC</h2>
-					<p>We promise only the highest quality service - Let's take care of your car.</p>
-					<a href="/contact" class="button big fa fa-check-circle">Visit us</a>
+					
+					<p>Call now for the highest quality service<br/>
+						(704) 525-5225</p>
+					<a href="/contact" class="button big fa fa-check-circle">Schedule Now</a>
 				</div>
 				
 				<?php endif; ?>

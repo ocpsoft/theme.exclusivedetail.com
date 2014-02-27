@@ -95,7 +95,7 @@
 									<dt>Twitter</dt>
 									<dd><a href="http://twitter.com/exclusivedetail">@exclusivedetail</a></dd>
 									<dt>Google+</dt>
-									<dd><a href="http://exclusivedetail.com">exclusivedetail.com/n33</a></dd>
+									<dd><a href="http://exclusivedetail.com">exclusivedetail.com</a></dd>
 								</dl>
 							</div>
 							<div class="6u">
