@@ -38,8 +38,8 @@
 								<?php wp_list_comments(array('style' => 'ol', 'avatar_size'=>48, 'reply_text'=>'[reply]')); ?>
 							</ol>
 							<div class="navigation">
-							<div class="alignleft"><?php previous_comments_link() ?></div>
-							<div class="alignright"><?php next_comments_link() ?></div>
+								<div class="alignleft"><?php previous_comments_link() ?></div>
+								<div class="alignright"><?php next_comments_link() ?></div>
 							</div>
 							<?php else : // this is displayed if there are no comments so far ?>
 								<?php if ( comments_open() ) :
@@ -86,9 +86,9 @@
 						
 						</form>
 						</div>
+						
 						<?php else : //Comments are closed ?>
 						<p class="nocomments">Comments are closed.</p>
-						
 						
 						<?php endif; ?>
 
