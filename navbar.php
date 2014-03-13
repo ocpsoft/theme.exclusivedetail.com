@@ -40,9 +40,9 @@
 				<?php if(!$NOHERO) : ?>
 
 				<!-- Banner -->
-				<div id="banner">
+				<div id="banner" class="inner" style="margin-top: 260px;">
 					
-					<p>Call now for the highest quality service<br/>
+					<p>Exclusive Detail and Tint<br/>
 						(704) 525-5225</p>
 					<a href="/contact" class="button big fa fa-check-circle">Schedule Now</a>
 				</div>
