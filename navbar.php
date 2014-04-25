@@ -44,7 +44,7 @@
 					
 					<p>Exclusive Detail and Tint<br/>
 						(704) 525-5225</p>
-					<a href="/contact" class="button big fa fa-check-circle">Schedule Now</a>
+					<a href="/schedule-now/" class="button big fa fa-check-circle">Schedule Now</a>
 				</div>
 				
 				<?php endif; ?>

@@ -129,7 +129,7 @@
 				
 					&copy;
 					<?=date('Y');?>
-					<a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?> </a> All Rights Reserved.
+					<a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a> All Rights Reserved.
 				</div>
 			</div>
 		</div>
