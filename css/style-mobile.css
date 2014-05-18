@@ -226,6 +226,7 @@
 	#banner
 	{
 		padding: 40px 20px 40px 20px;
+		width: 100%;
 	}
 
 		#banner h2
@@ -236,6 +237,12 @@
 		#banner h2 br
 		{
 			display: none;
+		}
+
+		#banner p
+		{
+			width: 100%;
+			text-align: center;
 		}
 
 /*********************************************************************************/
