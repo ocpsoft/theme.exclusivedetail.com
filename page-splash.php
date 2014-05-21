@@ -5,11 +5,11 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="wide normal narrow">
 
 <?php get_header(); ?>
 
-<body class="homepage">
+<body class="homepage" id="splash">
 	<?php include 'navbar.php';?>
 
 <!-- Main Wrapper -->
@@ -24,7 +24,7 @@
 		
 		<?php endwhile; ?>
 		
-		<?php include 'blogfeed.php';?>
+		<?php $ARTICLE_LIMIT=3; include 'blogfeed.php';?>
 		
 	<?php else : ?>
 		

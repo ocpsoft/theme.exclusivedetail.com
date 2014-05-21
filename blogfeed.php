@@ -9,7 +9,7 @@
 								<h2 class="fa fa-file-text-o">From the blog</h2>
 								
 								<?php
-									$args = array( 'numberposts' => '3', 'offset' => '1' );
+									$args = array( 'numberposts' => $ARTICLE_LIMIT, 'offset' => '1' );
 									$recent_posts = wp_get_recent_posts( $args );
 									foreach( $recent_posts as $recent ){
 								?>

@@ -63,10 +63,6 @@ register_nav_menus( array(
 		'footer2' => 'Footer Navigation 2'
 ) );
 
-register_nav_menus( array(
-		'footer3' => 'Footer Navigation 3'
-) );
-
 function ocpsoft_menu_fallback() {
 	$locations = get_theme_mod('nav_menu_locations');
 
@@ -83,14 +79,6 @@ function ocpsoft_menu_fallback() {
 		set_theme_mod('nav_menu_locations', $locations);
 	} else {
 		$locations['footer2'] = 'Footer Navigation 2';
-		set_theme_mod('nav_menu_locations', $locations);
-	}
-
-	if (! has_nav_menu('footer3') && ! is_nav_menu( 'Footer Navigation 3' )) {
-		$locations['footer3'] = wp_create_nav_menu('Footer Navigation 3', array('slug' => 'footer3'));
-		set_theme_mod('nav_menu_locations', $locations);
-	} else {
-		$locations['footer3'] = 'Footer Navigation 3';
 		set_theme_mod('nav_menu_locations', $locations);
 	}
 
