@@ -69,7 +69,7 @@
 								<dl class="contact">
 									<dt>Hours</dt>
 									<dd>
-										<strong>Mon-Fri</strong> &rarr;  7:30 - 6:00<br/>
+										<strong>Mon-Fri</strong> </br>&rarr;  7:30 - 6:00<br/>
 									</dd>
 								</dl>
 							</div>
