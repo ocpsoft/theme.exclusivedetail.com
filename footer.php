@@ -70,8 +70,6 @@
 									<dt>Hours</dt>
 									<dd>
 										<strong>Mon-Fri</strong> &rarr;  7:30 - 6:00<br/>
-										<strong>Sat</strong> &rarr; 9:00 - 3:00</br>
-										Closed Sundays
 									</dd>
 								</dl>
 							</div>
