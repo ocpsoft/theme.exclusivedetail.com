@@ -12,10 +12,10 @@
 		<!-- Main Wrapper -->
 		<div id="main-wrapper" class="post-<?php the_ID(); ?>">
 		
-			<?php $ARTICLE_LIMIT=0;  include 'blogfeed.php';?>
+			<?php include 'index-blogroll.php';?>
 		
 			<?php comments_template(); ?>
-		
+
 		</div> <!-- End main-wrapper -->
 	
 	<?php else : ?>

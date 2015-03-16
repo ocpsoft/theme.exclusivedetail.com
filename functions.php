@@ -20,6 +20,7 @@ function register_assets() {
 	wp_register_script( "config", get_bloginfo("template_url")."/js/config.js");
 	wp_register_script( "skel", get_bloginfo("template_url")."/js/skel.min.js");
 	wp_register_script( "skel-panels", get_bloginfo("template_url")."/js/skel-panels.min.js");
+	wp_register_script( "scaletube", get_bloginfo("template_url")."/js/scaletube.js");
 
 	if( !is_admin() )
 	{
@@ -37,6 +38,7 @@ function register_assets() {
 		wp_enqueue_script("config");
 		wp_enqueue_script("skel");
 		wp_enqueue_script("skel-panels");
+		wp_enqueue_script("scaletube");
 		
 		if ( is_single() || is_page() ) {
 			wp_enqueue_script( 'comment-reply', null, null, null, true );
@@ -144,6 +146,25 @@ if ( function_exists('register_sidebar') )
 function the_error_page()
 {
 	include 'error.php';
+}
+
+function content($num) {
+	$output = wp_strip_all_tags(get_the_content(), true);
+	$limit = $num+1;
+	$content = explode(' ', $output, $limit);
+	array_pop($content);
+	$content = implode(" ",$content)."...";
+	echo $content;
+}
+
+function content_id($id, $num) {
+	$output = get_post($id)->post_content;
+	$output = wp_strip_all_tags($output, true);
+	$limit = $num+1;
+	$content = explode(' ', $output, $limit);
+	array_pop($content);
+	$content = implode(" ",$content)."...";
+	echo $content;
 }
 
 ?>
