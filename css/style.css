@@ -83,6 +83,10 @@
 		margin-top: 2em;
 	}
 
+	img {
+		max-width: 100%;
+	}
+
 	strong
 	{
 		color: #474747;
@@ -1206,7 +1210,7 @@
 
 	#header-wrapper
 	{
-		background: url('../images/banner.jpg') top center;
+		background: url('../images/banner_2.jpg') top center;
 		background-size: 100%;
 	}
 	

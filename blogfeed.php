@@ -67,7 +67,7 @@
 												));
 											?>	
 										<?php else :?>
-											<img src="http://example.com:8888/wp-content/uploads/2014/02/detailing_1-300x225.jpeg" alt="Featured Post Image" width="300" height="245" class="alignnone size-medium wp-image-29" />
+											<img src="/wp-content/uploads/2014/02/detailing_1-300x225.jpeg" alt="Featured Post Image" width="300" height="245" class="alignnone size-medium wp-image-29" />
 										<?php endif ?>
 										</a>
 										<header>
