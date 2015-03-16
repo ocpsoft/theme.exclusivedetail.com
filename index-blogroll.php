@@ -4,7 +4,6 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="8u">
 					<!-- Article list -->
 					<section class="box-article-list">
 						<h2 class="fa fa-file-text-o">From the blog</h2>
@@ -46,7 +45,6 @@
 
 					</section>
 				</div>
-			</div>
 		</div>
 	</div>
 </div>
