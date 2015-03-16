@@ -72,7 +72,7 @@
 										<header>
 											<h3><a href="<?php echo get_permalink($recent['ID']) ?>" title="<?php echo esc_attr($recent["post_title"]) ?>"><?php echo $recent["post_title"] ?></a></h3>
 										</header>
-										<p><?php if(has_excerpt( $recent['ID'] )) echo $recent["post_exerpt"]; else echo substr( $recent["post_content"], 0, 450 ) . " ..."; ?></p>
+										<p><?php content_id($recent['ID'], 70); ?></p>
 										<footer>
 											<a href="<?php echo get_permalink($recent['ID']) ?>" class="button alt fa fa-file-o">Continue Reading</a>
 											<p style="margin-top: 15px;">
