@@ -11,7 +11,7 @@
 					<div class="inner">
 
 						<!-- Logo -->
-						<h1><a href="/"><span style="display: none;">The Premier Car Cleaning, Auto Detailing, and Window Tinting service in Charlotte, NC</span><a href="/" id="logo"><img src="<?php bloginfo('stylesheet_directory');?>/images/logo.png" height="60" style="position: relative; top: -15px;"/></a></h1>
+						<h1><a href="/"><span style="display: none;">The Premier Car Cleaning, Auto Detailing, and Window Tinting service in Charlotte, NC</span><a href="/" id="logo"><img src="<?php bloginfo('stylesheet_directory');?>/images/logo.png" height="60" style="position: relative; top: -15px; height: 60px;"/></a></h1>
 						
 						<!-- Nav -->
 						<nav id="nav">
