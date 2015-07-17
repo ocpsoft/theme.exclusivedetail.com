@@ -79,6 +79,14 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
+   #logo
+	{
+	   position: relative; 
+		top: -62px; 
+		left: -40px;
+		height: 150px;
+	}
+
 	#header
 	{
 		position: relative;
@@ -109,6 +117,55 @@
 			margin-top: -0.65em;
 			font-size: 1.5em;
 			color: #fff;
+		}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#callout
+	{
+		float: right;
+		width: 265px;
+		position: relative;
+		border-radius: 10px;
+		background: rgba(255,255,255,0.10);
+		padding: 0.75em;
+	}
+
+		#callout .inner
+		{
+			position: relative;
+			height: 8.5em;
+			background-image: -moz-linear-gradient(top, rgba(59,59,59,0.9), rgba(38,38,38,0.9));
+			background-image: -webkit-linear-gradient(top, rgba(59,59,59,0.9), rgba(38,38,38,0.9));
+			background-image: -o-linear-gradient(top, rgba(59,59,59,0.9), rgba(38,38,38,0.9));
+			background-image: -ms-linear-gradient(top, rgba(59,59,59,0.9), rgba(38,38,38,0.9));
+			background-image: linear-gradient(top, rgba(59,59,59,0.9), rgba(38,38,38,0.9));
+			border-radius: 8px;
+			box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.5), inset 0px 2px 1px 0px rgba(255,255,255,0.2);
+			text-shadow: -1px -1px 0 rgba(0,0,0,1);
+			padding-right: 37px;
+			padding-top: 10px;
+			text-align: right;
+		}
+	
+		#callout h1
+		{
+			height: 30px;
+			font-size: 1.5em;
+			color: #fff;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+
+		#callout p
+		{
+			color: #fff;
+			font-weight: bold;
+			margin-bottom: 0px;
+			margin-top: 0px;
+			height: 30px;
 		}
 
 /*********************************************************************************/

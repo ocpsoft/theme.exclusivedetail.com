@@ -355,6 +355,11 @@
 		margin: 2.5em 0 0 0;
 	}
 	
+	.footerimg
+	{
+		width: 100%;
+	}
+	
 	header.major
 	{
 		border-bottom: solid 1px #dbdbdb;
@@ -1318,6 +1323,11 @@
 		margin-bottom: 0;
 	}
 
+   .phone-num
+	{
+	   background: url(../images/phone-icon.png) no-repeat center left;
+		background-position: 37px;
+	}
 	
 /*********************************************************************************/
 /* Footer                                                                        */

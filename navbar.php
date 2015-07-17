@@ -11,10 +11,10 @@
 					<div class="inner">
 
 						<!-- Logo -->
-						<h1><a href="/"><span style="display: none;">The Premier Window Tinting service in Charlotte, NC</span><a href="/" id="logo"><img src="<?php bloginfo('stylesheet_directory');?>/images/logo.png" style="position: relative; top: -15px; height: 60px;"/></a></h1>
+						<h1><a href="/"><span style="display: none;">The Premier Window Tinting service in Charlotte, NC</span><a href="/"><img id="logo" src="<?php bloginfo('stylesheet_directory');?>/images/logo.png"/></a></h1>
 						
 						<!-- Nav -->
-						<nav id="nav">
+						<nav id="nav" class="nomobile">
 							<?php wp_nav_menu( array(
 									'theme_location'  => 'primary',
 									'menu'            => '',
@@ -34,6 +34,14 @@
 									'walker'          => new OCPsoft_Nav_Menu
 							) ); ?>
 						</nav>
+					</div>
+				</header>
+
+				<header id="callout">
+					<div class="inner">
+						<p>REQUEST A FREE QUOTE</p>
+						<h1><a href="tel:1-800-256-0695">1-800-256-0695</a></h1>
+						<p class="phone-num">M-F: 9am-5pm</p>
 					</div>
 				</header>
 
