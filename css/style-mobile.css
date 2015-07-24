@@ -267,6 +267,13 @@
 
 	#footer
 	{
+		text-align: center;
+	}
+
+	#footer img
+	{
+	   height: 100%;
+		width: 100px;
 	}
 
 	#copyright
