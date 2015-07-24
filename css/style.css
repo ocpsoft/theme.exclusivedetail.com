@@ -352,11 +352,13 @@
 
 	footer
 	{
+		text-align: center;
+		vertical-align: middle;
 	}
 	
 	.footerimg
 	{
-		width: 100%;
+		width: 150px;
 	}
 	
 	header.major
