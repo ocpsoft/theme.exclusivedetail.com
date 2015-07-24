@@ -82,9 +82,9 @@
    #logo
 	{
 	   position: relative; 
-		top: -62px; 
-		left: -40px;
-		height: 150px;
+		top: -21px; 
+		left: -20px;
+		height: 70px;
 	}
 
 	#header
@@ -142,7 +142,7 @@
 		#callout .inner
 		{
 			position: relative;
-			height: 8.5em;
+			height: 6.0em;
 			background-image: -moz-linear-gradient(top, rgba(59,59,59,0.9), rgba(38,38,38,0.9));
 			background-image: -webkit-linear-gradient(top, rgba(59,59,59,0.9), rgba(38,38,38,0.9));
 			background-image: -o-linear-gradient(top, rgba(59,59,59,0.9), rgba(38,38,38,0.9));

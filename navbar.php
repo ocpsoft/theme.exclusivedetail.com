@@ -41,7 +41,6 @@
 					<div class="inner">
 						<p>REQUEST A FREE QUOTE</p>
 						<h1><a href="tel:1-800-256-0695">1-800-256-0695</a></h1>
-						<p class="phone-num">M-F: 9am-5pm</p>
 					</div>
 				</header>
 
