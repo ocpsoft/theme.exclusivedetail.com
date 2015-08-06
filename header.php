@@ -14,7 +14,7 @@
 <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory');?>/ico/favicon.ico" />
-<link rel="icon" type="image/gif" href="ico/favicon.gif" />
+<link rel="icon" type="image/gif" href="<?php bloginfo('stylesheet_directory');?>/ico/favicon.gif" />
 <?php wp_get_archives('type=monthly&format=link'); ?>
 
 <!-- HTML5 shim (for IE6-8 support of HTML5 elements) -->
