@@ -1,4 +1,4 @@
-<div class="main-wrapper-style3">
+<div class="main-wrapper-style3" style="padding-top: 5px; padding-bottom: 5px;">
 		<div class="inner">
 			<div class="container">
 				<div class="row">
