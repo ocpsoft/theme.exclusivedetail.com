@@ -7,6 +7,13 @@
 			<div class="3u"><img class="footerimg" src="<?php bloginfo('stylesheet_directory');?>/images/logos/llumar.png"/> </div>
 			<div class="3u"><a rel="nofollow" class="footerimg" href="http://www.homeadvisor.com/rated.ExclusiveWindowFilmLLC.48261926.html"><img src="<?php bloginfo('stylesheet_directory');?>/images/logos/homeadvisor.png"/></a></div>
 		</div>
+		<div class="row">
+			<div class="3u"><img class="footerimg" src="<?php bloginfo('stylesheet_directory');?>/images/logos/armorcoat.png"/> </div>
+			<div class="3u"><img class="footerimg" src="<?php bloginfo('stylesheet_directory');?>/images/logos/energystar.png"/> </div>
+			<div class="3u"><img class="footerimg" src="<?php bloginfo('stylesheet_directory');?>/images/logos/hanitatek.png"/> </div>
+			<div class="3u"><img class="footerimg" src="<?php bloginfo('stylesheet_directory');?>/images/logos/solargard.png"/> </div>
+			<div class="3u"><img class="footerimg" src="<?php bloginfo('stylesheet_directory');?>/images/logos/suntek.png"/> </div>
+		</div>
 		
 		<!-- Copyright Wrapper -->
 		<div class="row">
